@@ -78,7 +78,7 @@ const translations = {
     analyticsTitle: "Métricas del Ecosistema",
     partnersTitle: "Socios Exclusivos",
     partnersSub: "DESARROLLO MULTIMEDIA Y SOCIOS ESTRATÉGICOS",
-    heroSub: "Estudio de Ventures Tecnológico — Ecosistemas Digitales",
+    heroSub: "Estudio de Desarrollo de Software — Ecosistemas Digitales",
     backBtn: "← Volver al Ecosistema",
     labelPublished: "APPS PUBLICADAS",
     labelDev: "APPS EN DESARROLLO",
