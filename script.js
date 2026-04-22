@@ -134,9 +134,9 @@ const products = {
   fitgotchi: {
     name: "FitGotchi",
     sector: "Health & Wellness",
-    status: "dev",
-    statusLabel: "Alpha",
-    release: "Q3 2026",
+    status: "beta",
+    statusLabel: "Beta",
+    release: null,
     desc: "FitGotchi merges the world of virtual pets with your daily fitness routine. Your pet grows as you move, encouraging a healthier lifestyle through play.",
     features: ["Step tracking integration","Virtual pet evolution","Social challenges"],
     link: "https://fitgotchi-91807529593.us-west1.run.app",
