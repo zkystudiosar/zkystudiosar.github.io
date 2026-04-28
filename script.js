@@ -249,7 +249,7 @@ const products = {
     release: null,
     desc: "A streamlined tool designed to help you organize your daily tasks and build lasting habits with a focus on mental well-being.",
     features: ["Custom habit loops","Progress analytics","Smart notifications"],
-    link: "https://mychecklist-575689633340.us-west1.run.app",
+    link: "https://mychecklist-1-2-575689633340.us-west1.run.app/",
     iconType: "pulse"
   },
   parabien: {
@@ -306,6 +306,39 @@ const products = {
     features: ["Generative NFT art","Metaverse integration","On-chain provenance","Rarity system"],
     link: "https://the-bonsai-collection-995883041292.us-west1.run.app",
     iconType: "bonsai"
+  },
+    perch: {
+    name: "Perch",
+    sector: "Data Intelligence",
+    status: "beta",
+    statusLabel: "Beta",
+    release: null,
+    desc: "Advanced crypto market intelligence platform focused on whale tracking and market distribution analysis.",
+    features: [
+      "Whale tracking",
+      "Market distribution analysis",
+      "Risk detection",
+      "Live insights"
+    ],
+    link: "https://perch-197097493264.us-west2.run.app/",
+    iconType: "screen"
+  },
+
+  parkeear: {
+    name: "Parkeear",
+    sector: "Smart Cities",
+    status: "beta",
+    statusLabel: "Beta",
+    release: null,
+    desc: "Global smart parking system connecting users with available parking spaces in real time.",
+    features: [
+      "Real-time parking",
+      "Global coverage",
+      "Smart reservations",
+      "Urban mobility"
+    ],
+    link: "https://parkeaar-457135200712.us-west1.run.app/",
+    iconType: "globe"
   }
 }
 
