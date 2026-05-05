@@ -230,6 +230,28 @@ const products = {
     link: "https://www.youtube.com/@zkymusic.mp3",
     iconType: "music"
   },
+  buenosbeatz: {
+    name: "BuenosBeatz",
+    sector: "Music & Entertainment",
+    status: "active",
+    statusLabel: "Active",
+    release: null,
+    desc: "A YouTube channel dedicated to hip-hop and trap production, featuring original beats, freestyle instrumentals and underground sound curated from Buenos Aires.",
+    features: ["Original hip-hop beats","Trap instrumentals","Underground curation","Buenos Aires scene"],
+    link: "https://www.youtube.com/c/BuenosBeatz",
+    iconType: "music"
+  },
+  zky3d: {
+    name: "zky3d",
+    sector: "Music & Entertainment",
+    status: "active",
+    statusLabel: "Active",
+    release: null,
+    desc: "An Instagram profile dedicated to sharing 3D design and motion projects — from renders and animations to experimental digital art.",
+    features: ["3D renders","Motion design","Digital art","Experimental projects"],
+    link: "https://www.instagram.com/zky3d/",
+    iconType: "cube3d"
+  },
   orb: {
     name: "Orb Travel",
     sector: "Tools & Extensions",
@@ -347,7 +369,8 @@ const iconSVGs = {
   screen: `<svg viewBox="0 0 24 24" fill="none" stroke="#2F6BFF" stroke-width="1.5" width="32" height="32"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>`,
   globe: `<svg viewBox="0 0 24 24" fill="none" stroke="#2F6BFF" stroke-width="1.5" width="32" height="32"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20M12 2a15 15 0 0 0 0 20"/></svg>`,
   music: `<svg viewBox="0 0 24 24" fill="none" stroke="#2F6BFF" stroke-width="1.5" width="32" height="32"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>`,
-  bonsai: `<svg viewBox="0 0 24 24" fill="none" stroke="#2F6BFF" stroke-width="1.5" width="32" height="32"><path d="M12 22v-7"/><path d="M12 15c0 0-4-2-4-6a4 4 0 0 1 8 0c0 4-4 6-4 6z"/><path d="M12 10c0 0-2.5-1-2.5-4A2.5 2.5 0 0 1 12 3.5a2.5 2.5 0 0 1 2.5 2.5C14.5 9 12 10 12 10z"/><line x1="9" y1="22" x2="15" y2="22"/></svg>`
+  bonsai: `<svg viewBox="0 0 24 24" fill="none" stroke="#2F6BFF" stroke-width="1.5" width="32" height="32"><path d="M12 22v-7"/><path d="M12 15c0 0-4-2-4-6a4 4 0 0 1 8 0c0 4-4 6-4 6z"/><path d="M12 10c0 0-2.5-1-2.5-4A2.5 2.5 0 0 1 12 3.5a2.5 2.5 0 0 1 2.5 2.5C14.5 9 12 10 12 10z"/><line x1="9" y1="22" x2="15" y2="22"/></svg>`,
+  cube3d: `<svg viewBox="0 0 24 24" fill="none" stroke="#2F6BFF" stroke-width="1.5" width="32" height="32"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>`
 }
 
 
@@ -441,7 +464,7 @@ if(chartCanvas && typeof Chart !== "undefined"){
       labels: translations[currentLang].chartLabels,
       datasets: [{
         label: "ZKY Ecosystem",
-        data: [8, 12, 5, 4],
+        data: [8, 12, 5, 6],
         backgroundColor: [
           "rgba(47,107,255,0.75)",
           "rgba(47,107,255,0.9)",
