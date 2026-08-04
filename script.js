@@ -271,7 +271,7 @@ const products = {
     release: null,
     desc: "A streamlined tool designed to help you organize your daily tasks and build lasting habits with a focus on mental well-being.",
     features: ["Custom habit loops","Progress analytics","Smart notifications"],
-    link: "https://mychecklist-1-5-575689633340.us-west1.run.app/",
+    link: "https://mychecklist.ai.studio",
     iconType: "pulse"
   },
   parabien: {
