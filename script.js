@@ -205,7 +205,7 @@ const products = {
     release: null,
     desc: "A smart agriculture platform connecting farmers with data-driven insights, weather forecasting and market intelligence.",
     features: ["Crop monitoring","Weather integration","Market prices"],
-    link: "https://greenharvest-1068068752191.us-west1.run.app",
+    link: "https://greenharvestar.ai.studio",
     iconType: "globe"
   },
   clubdepromos: {
